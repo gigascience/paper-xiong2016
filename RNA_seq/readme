@@ -1,0 +1,3 @@
+This is a annotation pipeline that merge the homology-based evidences and transcriptome-based evidences.
+Run the main script as follows. Note that markov_5.param is the Markov model estimated with homolog-based high-quality genes using trainGlimmerHMM tool.
+perl ./bin/auto_CCG.pl E_macularius.scafSeq.fill.FG RNA_seq_fq.lst markov_5.param E_macularius_homolog.gff
